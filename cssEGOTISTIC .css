@@ -1,0 +1,53 @@
+#regotistic {
+  width: 495px;
+  padding: 35px;
+  background-color: #e8f1ed;
+}
+
+#regotistic:after {
+  position: relative;
+  top: 1px;
+  content: "「R」";
+  font: bold 8px Consolas;
+  letter-spacing: -.5px;
+  opacity: .2;
+}
+
+#regotistic .img {
+  width: 175px;
+  height: 215px;
+  outline: 5px solid #408839;
+  outline-offset: 4px;
+  margin: 5px 25px 15px 5px;
+  float: left;
+  background: center/cover;
+}
+
+#regotistic .texto {
+  border: 1px solid #ccdacc;
+  padding: 40px;
+  text-align: justify;
+  font: 12px/14px Ubuntu;
+  color: #000;
+}
+
+#regotistic .titulo {
+  width: 325px;
+  margin-left: 190px;
+  padding: 0 25px 0 25px;
+  font: 33px Mr Bedfort;
+  letter-spacing: -3px;
+  word-spacing: 4px;
+  color: #408839;
+}
+
+#regotistic .sub {
+  margin-top: -7px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #20571b;
+  letter-spacing: 1.5px;
+}
